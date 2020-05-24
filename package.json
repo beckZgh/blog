@@ -8,7 +8,8 @@
   },
   "scripts": {
     "serve": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "build:copy": "vuepress build src & node ./scripts/copy.js"
   },
   "dependencies": {
     "vuepress-theme-antdocs": "^1.1.0"

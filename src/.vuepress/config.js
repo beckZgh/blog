@@ -1,4 +1,5 @@
 module.exports = {
+    base: process.env.NODE_ENV === 'production' ? '/blog/' : '/',
     theme: 'antdocs',
     title: 'NoteBook',
     description: "Just playing around",
